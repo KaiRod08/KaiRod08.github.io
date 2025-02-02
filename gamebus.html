@@ -1,0 +1,339 @@
+<html lang="en"><head><style> #comments { display: none !important; }</style><style>ytd-live-chat-frame#chat { display: none; }</style><style>#watch-discussion, #watch7-discussion, ytd-comments { display: none; }</style><!--<script>
+    //Checks if mobile device is used
+    let details = navigator.userAgent; 
+    let regexp = /android|iphone|kindle|ipad/i; 
+    let isMobileDevice = regexp.test(details); 
+    if (isMobileDevice) { 
+        window.location.replace("https://nova-webbus.neocities.org/indexMobile");
+    } else { 
+        console.log("You are using Desktop"); 
+    }
+</script>-->
+
+
+    <meta charset="UTF-8">
+    <title>Nova WebBus</title>
+    <link rel="icon" href="WebBusICO.png" type="image/x-icon">
+    <script src="index.js"></script>
+    <style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+
+.buses a:link {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.5);
+}
+
+.buses a:visited {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,1);
+}
+
+.buses a:hover {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.7);
+}
+
+.buses a:active {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.7);
+}
+
+.frame button {
+    padding: 20px;
+    border-color: transparent;
+    font-family: Verdana, Verdana, san-serif;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 8px;
+    background: rgba(125,125,125,0.5);
+    color: white;
+}
+.centerBrowers{
+    margin: auto;
+    width: 8.6%;
+    padding: 20px;
+}
+
+.featureBus{
+    height: 200px;
+    position: relative;
+    border: none;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.drives{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.centerFreqVisitedWebsites{
+    margin: auto;
+    width: 57.5%;
+    padding: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(125,125,125,0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body {
+    /*background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/04/Backgrounds-space-wallpaper-HD.jpg);*/
+    background-image: url(https://jooinn.com/images/bokeh-light-dots-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input {
+  all: unset;
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 90%; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.5);
+}
+
+
+::placeholder {
+  color: white;
+  opacity: 0.7;
+</style>
+</head>
+
+
+
+<body oncontextmenu="return false">
+    
+    <p style="text-align: center">
+        
+    </p><div class="sidenav" id="mySidenav">
+        
+      <a style="background-color: transparent; color: white" href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <br>
+      <div style="text-align: center;" class="frame">
+      <button style="background-color: transparent;" class="buses">
+            <!--<h3> Themes </h3>
+            <a href="index-nova.html">SuperNova</a>
+            <a href="#">Standard</a>-->
+            <h3>Still in Beta Testing</h3>
+      </button>
+      </div>
+
+    </div>
+    
+    <div id="main">
+      <span style="font-family: Verdana, Verdana, san-serif;font-size:35px;cursor:pointer; color:white;" onclick="openNav()">☰</span>
+    </div>
+    
+    <script>
+    
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    
+    </script>  
+
+    <p style="font-family: Verdana, Verdana, san-serif; color: white; text-align: center; top: 0; position: absolute; right: 0; padding-right: 15px; padding-bottom: 15px;">Beta Testing</p> <!-- VERSION NUMBER -->
+
+    <div style="text-align: center;">
+    
+    
+      
+      <h1 style="font-family: Verdana, Verdana, san-serif; color: white; text-align: center; display: inline-block; vertical-align: middle;" class="frame">
+          <button class="buses">
+              <a href="index.html" style="width: 80%">Back to WebBus</a>
+              <h1 style="font-family: Verdana, Verdana, san-serif; color: white; text-align: center; font-size: 50px;">
+                <img style="vertical-align: middle; display: inline-block; width: 100px; height: auto; text-align: center;">
+                    SuperNova GameBus
+                <img style="vertical-align: middle; display: inline-block; width: 100px; height: auto; text-align: center;" src="WebBusICO.png">
+              </h1>
+              
+              <h3 style="font-family: Verdana, Verdana, san-serif; color: white; width: 100%; height: 20px; text-align: center; font-size: 20px;">"Play the game. Play the game. Play the game." - Freddie Mercury</h3>
+          </button>
+      </h1>
+      
+    </div>
+    
+    <!--<div style="text-align:center;" class="frame">
+    <button class="buses">
+            <a href="index-nova.html">SuperNova</a>
+            <a href="#">Standard</a>
+    </button>
+    </div>-->
+    
+    <br>
+    
+    <marquee style="font-family: Verdana, Verdana, san-serif; border: solid; background: black; color: rgba(125,125,125,0.5); width: 100%; height: 20px;">
+     • Announcements: New Page - Beta Testing - Bugs may appear, but we're trying our best to squash them. •
+    </marquee>
+
+    <br>
+    <br>
+    
+    <!--<div style="text-align: center;" class="frame">
+    <button style="width: 80%; padding: 20px; border-color: transparent; font-family: Verdana, Verdana, san-serif; text-align: center; border-radius: 15px; margin-top: 8px; background: rgba(125,125,125,0.5); color: white;" class="buses">
+            <h2>Search</h2>
+            <form id="form" role="search">
+            <input type="search" id="query" name="q" placeholder="Search for a bus" aria-label="Search for a bus">
+            <button style="width: 100px"><img style="vertical-align: middle; display: inline-block; width: 50px; height: auto; text-align: center;" src="search.png"></button>
+            </form>
+            <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A+';
+      const site = 'nova-webbus.neocities.org';
+
+      function submitted(event) {
+        event.preventDefault();
+        if(q.value == "hi") {
+          window.open(google, '_blank'):
+        //const url = google + site + '+' + q.value;
+        //const win = window.open(url, '_blank');
+        //win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+    </button>
+    </div>-->
+    
+    <div style="text-align: center;" class="frame">
+    <button style="width: 80%; padding: 20px; border-color: transparent; font-family: Verdana, Verdana, san-serif; text-align: center; border-radius: 15px; margin-top: 8px; background: rgba(125,125,125,0.5); color: white;" class="buses">
+            <h2>New</h2>
+            <a href="https://oskarstalberg.com/Townscaper/">Townscaper</a>
+            <a href="https://www.nytimes.com/games/wordle/">Wordle</a>
+            <a href="https://agar.io/">Agar.io</a>
+            <a href="https://www.geoguessr.com/">GeoGuessr</a>
+            <a href="https://tetris.com/play-tetris/?utm_source=top_nav_link&utm_medium=webnav&utm_campaign=playNow_btm_tst&utm_content=text_play_now">Tetris</a>
+            <a href="https://pokedoku.com/">Pokédoku</a>
+
+    </button>
+    </div>
+
+    <br>
+    <!--<button style= "text-align:center; width: 20%; padding: 20px; border-color: grey; font-family: Verdana, Verdana, san-serif; text-align: center; border-radius: 15px; margin-top: 8px; background: rgba(125,125,125,0.5); color: white;">
+            <h2>Command Line</h2>
+            <p style="color: white; font-family: Consolas, monaco, monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700;">>>> <input style="border-color: grey; border-radius: 5px; color: white; background: black; font-family: Consolas, monaco, monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700;" id="cmd" type="text" autofocus></input><input style="width: 70%; padding: 6px; border-color: transparent; color: white; border-radius: 5px; margin-top: 8px; font-size: 17px; background: rgba(50,50,50,0.5);" type="button" id="exe" value="Execute"></input></p>
+            <label style="padding-left: 10px; padding-right: 10px; border-color: grey; border-radius: 5px; color: white; background: black; font-family: Consolas, monaco, monospace; font-size: 17px; text-align: left; font-style: normal; font-variant: normal; font-weight: 700;" id="output" onClick="outputCom();">OUTPUT</label>
+    </button>-->  
+    
+    <br>
+    
+    <p style="font-family: Verdana, Verdana, san_serif; color: white; padding-bottom: 15px; padding-right: 15px;">Copyright © SuperNova Studios 2024</p>
+</body>
+</html>
+

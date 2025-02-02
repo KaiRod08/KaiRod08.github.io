@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova WebBus</title>
+    <link rel="icon" href="WebBusICO.png" type="image/x-icon">
+    <link href="version2.css" rel="stylesheet" type="text/css" media="all">
+    <link href="maintheme.css" rel="stylesheet" type="text/css" media="all">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="font-default.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  
+  <body oncontextmenu="return false">
+      
+    <div class="sidebar">
+      <div class="top">
+        <div class="logo">
+          <span></span> 
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      
+      <ul>
+        <li>
+          <a href="index.html">
+            <i class="bx bxs-analyse"></i>
+            <span class="nav-item">WebBus</span>
+          </a>
+          <span class="tooltip">WebBus</span>
+        </li>
+        
+        <!--<li>
+          <a href="#">
+            <i class="bx bxs-grid-alt"></i>
+            <span class="nav-item">HandBus</span> // ADD PERSONAL LINKS
+          </a>
+          <span class="tooltip">HandBus</span>
+        </li>-->
+        
+        <li>
+          <a href="categories.html">
+            <i class="bx bx-list-check"></i>
+            <span class="nav-item">Categories</span>
+          </a>
+          <span class="tooltip">Categories</span>
+        </li>
+        
+        <li>
+          <a href="updates.html">
+            <i class="bx bx-transfer"></i>
+            <span class="nav-item">Updates</span>
+          </a>
+          <span class="tooltip">Updates</span>
+        </li>  
+
+        <li>
+          <a href="settings">
+            <i class="bx bx-cog"></i>
+            <span class="nav-item">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="main-content">
+      <div class="container">
+        <div class="banner">
+          <div class="banner_content">
+            <div class="banner_text">
+              <strong>Warning:</strong> Version 2 of Nova WebBus is brand new so some content may still be unstable. 
+            </div>
+          </div>
+        </div> 
+        
+        <p style="font-size: 25px; top: 0; position: absolute; right: 0; padding: 15px 15px 15px 15px;">V2.0</p>
+        <br>
+        <h1>Nova WebBus</h1>
+        <br>
+        
+        <div class="frame">
+          <h2>Announcements</h2>
+          <p>Welcome to Version 2</p>
+        </div>
+        
+        <div class="frame" id="top3">
+          <h2>The Top 3</h2>
+          <br>
+          <a href="https://www.office.com/">Office 365</a>
+          <a href="https://www.youtube.com/">YouTube</a>
+          <a href="https://www.bbc.co.uk">BBC</a>
+        </div>
+        
+        <div class="frame" id="schoolbus">
+          <h2>The School Bus</h2>
+          <br>
+          <a href="https://www.office.com/">Office 365</a>
+          <a href="https://revisecs.csuk.io/csuk-rcs-login/">CS:Revise</a>
+          <a href="https://www.app.senecalearning.com/">Seneca</a>
+          <a href="https://www.sparxmaths.uk/">Sparx</a>
+          <a href="https://app.tassomai.com/">Tassomai</a>
+          <a href="https://www.classcharts.com/">Classcharts</a>
+          <a href="https://www.desmos.com/">Desmos</a>
+        </div>
+        
+        <div class="frame" id="social">
+          <h2>Social Networking</h2>
+          <br>
+            <a href="https://www.youtube.com/">YouTube</a>
+            <a href="https://www.reddit.com">Reddit</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.tiktok.com">TikTok</a>
+            <a href="https://www.x.com">X</a>
+        </div>
+        
+        <div class="frame" id="updates">
+          <h2>Update Documents</h2>
+          <br>
+          <a href="V1-42-update.html">V1.42 Update</a>
+          <a href="V1-43-update.html">V1.43 Update</a>
+          <a href="V1-44-update.html">V1.44 Update</a>
+          <a href="V2-00-update.html">V2.00 Update</a>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+    
+  </body>
+  
+  <script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+      sidebar.classList.toggle('active');
+    };
+  </script>
+  
+</html>

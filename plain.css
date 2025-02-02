@@ -1,0 +1,94 @@
+
+::-webkit-scrollbar-thumb {
+  background-color: 000;
+}
+
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+}
+
+body {
+  background-color: #fff;
+}
+
+
+
+
+
+.sidebar {
+  background-color: #fff;
+}
+.sidebar #btn {
+  color: #000;
+}
+
+.sidebar .top .logo {
+  color: #fff;
+}
+.sidebar ul li a {
+  color: #fff;
+}
+.sidebar ul li a:hover {
+  color: #fff;
+  background-color: #aaa;  
+}
+.sidebar ul li .tooltip {
+  box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.2);
+  background-color: #aaa;
+}
+
+
+
+
+
+
+.main-content {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  transition: all 0.5 ease;
+  
+}
+
+
+.main-content a:link {
+  color: #000;
+  background-color: rgba(200,200,200,1);
+}
+.main-content a:visited {
+  color: #000;
+  background-color: rgba(200,200,200,1);
+}
+.main-content a:hover {
+  color: #000;
+  background-color: rgba(200,200,200,1);
+}
+.main-content a:active {
+  color: #000;
+  background-color: rgba(200,200,200,1);
+}
+
+
+.main-content h1 {
+  color: #000;
+}
+.main-content h2 {
+  color: #000;
+}
+.main-content p {
+  text-align: center;
+}
+
+
+
+
+.frame {
+  background-color: rgba(220,220,220,0);
+}
+  
+  

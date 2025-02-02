@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head><!--<script>
+    //Checks if mobile device is used
+    let details = navigator.userAgent; 
+    let regexp = /android|iphone|kindle|ipad/i; 
+    let isMobileDevice = regexp.test(details); 
+    if (isMobileDevice) { 
+        window.location.replace("https://nova-webbus.neocities.org/indexMobile");
+    } else { 
+        console.log("You are using Desktop"); 
+    }
+</script>-->
+
+
+    <meta charset="UTF-8">
+    <title>Nova Document Viewer | V1.42 Update</title>
+    <link rel="icon" href="WebBusICO.png" type="image/x-icon">
+    <script src="index.js"></script>
+    <style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+
+.buses a:link {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.5);
+}
+
+.buses a:visited {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,1);
+}
+
+.buses a:hover {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.7);
+}
+
+.buses a:active {
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 200px; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.7);
+}
+
+.frame button {
+    padding: 20px;
+    border-color: transparent;
+    font-family: Verdana, Verdana, san-serif;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 8px;
+    background: rgba(125,125,125,0.5);
+    color: white;
+}
+.centerBrowers{
+    margin: auto;
+    width: 8.6%;
+    padding: 20px;
+}
+
+.featureBus{
+    height: 200px;
+    position: relative;
+    border: none;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.drives{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.centerFreqVisitedWebsites{
+    margin: auto;
+    width: 57.5%;
+    padding: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(125,125,125,0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body {
+    /*background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/04/Backgrounds-space-wallpaper-HD.jpg);*/
+    background-image: url(https://jooinn.com/images/bokeh-light-dots-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input {
+  all: unset;
+  font-family: Verdana, Verdana, san-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  width: 90%; 
+  border-color: grey;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: rgba(50,50,50,0.5);
+}
+
+
+::placeholder {
+  color: white;
+  opacity: 0.7;
+</style>
+</head>
+  <body oncontextmenu="return false">
+  
+  <div style="text-align: center;" class="frame">
+    <button style="width: 80%; padding: 20px; border-color: transparent; font-family: Verdana, Verdana, san-serif; text-align: center; border-radius: 15px; margin-top: 8px; background: rgba(125,125,125,0.5); color: white;" class="buses">
+    
+            <a href="index.html" style="width: 80%">Back to WebBus</a><br><br>
+            <h1>Nova Document Viewer</h1>
+            <br>
+            <h2>V1.42 Update Documentation</h2>
+            <ul style="text-align: left; font-family: Verdana, Verdana, san_serif; color: white; padding-bottom: 15px; padding-right: 15px; padding-left: 15px; font-size: 17px;">
+
+<li>After it's early deletion in Beta, <a href="gamebus.html">Nova GameBus</a> is back!</li>
+<li>A search bar has been added in order to find the categories easier.</li>
+<li>Squashed some bugs</li>
+<li>Added the update documentations</li>
+<li>Updated the announcement bar</li>
+<li>Tweeked some minor details</li>
+
+
+</ul>
+</button>
+    </div>  
+  </body>
+</html>

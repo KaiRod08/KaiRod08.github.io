@@ -1,0 +1,112 @@
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(138,207,0);
+}
+
+
+
+
+* {
+  font-family: "Overlock", sans-serif, Verdana, sans-Serif;
+  color: #fff;
+}
+
+body {
+  background: rgb(138,207,0); 
+}
+
+
+
+
+
+
+
+
+.sidebar {
+  background-color: rgb(138,207,0);
+}
+.sidebar #btn {
+  color: #fff;
+}
+.sidebar .top .logo {
+  color: #fff;
+}
+.sidebar ul li a {
+  color: #fff;
+}
+.sidebar ul li a:hover {
+  color: #12171e;
+  background-color: rgba(108,177,0,0.9);
+}
+.sidebar ul li .tooltip {
+  box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.2);
+  background-color: rgba(108,177,0,0.9);
+}
+
+
+
+
+
+
+.main-content {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  transition: all 0.5 ease;
+  
+  background-image: url(https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2RNK1P0BYVrSCZEy_Sd1Ew%252F3417757448_4a6bdf36ce_o.jpg&width=910);
+}
+
+
+.main-content a:link {
+  color: #fff;
+  background-color: rgba(138,207,0,0.9);
+}
+.main-content a:visited {
+  color: #fff;
+  background-color: rgba(138,207,0,0.9);
+}
+.main-content a:hover {
+  color: #fff;
+  background-color: rgba(108,177,0,0.9);
+}
+.main-content a:active {
+  color: #fff;
+  background-color: rgba(138,207,0,0.9);
+}
+
+.main-content h1 {
+  color: #fff;
+}
+.main-content h2 {
+  color: #fff;
+}
+.main-content p {
+  text-align: center;
+}
+
+
+
+
+
+
+.frame {
+  background-color: rgba(70,70,70,0.2);
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+

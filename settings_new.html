@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head><style>#watch-discussion, #watch7-discussion, ytd-comments { display: none; }</style><style>ytd-live-chat-frame#chat { display: none; }</style><style> #comments { display: none !important; }</style><style>#watch-discussion, #watch7-discussion, ytd-comments { display: none; }</style><style>ytd-live-chat-frame#chat { display: none; }</style><style> #comments { display: none !important; }</style><style>#watch-discussion, #watch7-discussion, ytd-comments { display: none; }</style><style>ytd-live-chat-frame#chat { display: none; }</style><style> #comments { display: none !important; }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova WebBus - Settings</title>
+    <link rel="icon" href="ICO.png" type="image/x-icon">
+    <link href="version2.css" rel="stylesheet" type="text/css" media="all">
+    <link href="maintheme.css" rel="stylesheet" type="text/css" media="all" id="theme"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="font-default.css" rel="stylesheet" type="text/css" media="all">
+    <script src="index.js"></script>
+    
+  </head>
+  <body>
+    
+
+    
+  
+  
+      
+    <div class="sidebar">
+      <div class="top">
+        <div class="logo">
+          <span></span> 
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      
+      <ul>
+        <li>
+          <a href="index.html">
+            <i class="bx bxs-analyse"></i>
+            <span class="nav-item">WebBus</span>
+          </a>
+          <span class="tooltip">WebBus</span>
+        </li>
+        
+        <!--<li>
+          <a href="#">
+            <i class="bx bxs-grid-alt"></i>
+            <span class="nav-item">HandBus</span> // ADD PERSONAL LINKS
+          </a>
+          <span class="tooltip">HandBus</span>
+        </li>-->
+        
+        <li>
+          <a href="categories.html">
+            <i class="bx bx-list-check"></i>
+            <span class="nav-item">Categories</span>
+          </a>
+          <span class="tooltip">Categories</span>
+        </li>
+        
+        <li>
+          <a href="updates.html">
+            <i class="bx bx-transfer"></i>
+            <span class="nav-item">Updates</span>
+          </a>
+          <span class="tooltip">Updates</span>
+        </li>  
+
+        <li>
+          <a href="settings">
+            <i class="bx bx-cog"></i>
+            <span class="nav-item">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="main-content">
+      <div class="container">
+        
+        <p style="font-size: 25px; top: 0; position: absolute; right: 0; padding: 15px 15px 15px 15px;">V2.11A</p>
+        <br>
+        <h1>Settings</h1>
+        <br>
+        
+      <div class="frame">
+          <button onclick="light()">Light</button>
+          
+          <button onclick="maintheme()">Dark</button>
+          
+          <button onclick="supernova()">SuperNova</button>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </div>
+        
+        <div class="frame">
+          <h2>Check for Updates</h2>
+          <br>
+          <!--<p>No Updates available.</p>-->
+          <p>V2.11B coming soon</p>
+          <!--<a href="">V2.11A</a>
+          <a href="">V2.11B</a>
+          <br>
+          <a href=""><img style="margin-bottom: -3px" src="Plus.png"/> Preview</a>
+          <a href=""><img style="margin-bottom: -3px" src="Plus.png"/> Preview</a>-->
+        </div>
+        
+        <div class="frame">
+          <h2>Update Documents</h2>
+          <br>
+          <a href="V1-42-update.html">V1.42 Update</a>
+          <a href="V1-43-update.html">V1.43 Update</a>
+          <a href="V1-44-update.html">V1.44 Update</a>
+          <a href="V2-00-update.html">V2.00 Update</a>
+          <a href="V2-10-update.html">V2.10 Update</a>
+          <a href="V2-11A-update.html">V2.11A Update</a>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+    
+  </body>
+  
+  <script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+      sidebar.classList.toggle('active');
+    };
+  </script>
+  
+</html>

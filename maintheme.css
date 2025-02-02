@@ -1,0 +1,138 @@
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+
+
+
+* {
+  font-family: "Overlock", sans-serif, Verdana, sans-Serif;
+  color: #fff;
+}
+
+body {
+  background-color: #12171e;
+}
+
+
+
+
+
+
+
+
+.sidebar {
+  background-color: #12171e;
+}
+.sidebar #btn {
+  color: #fff;
+}
+.sidebar .top .logo {
+  color: #fff;
+}
+.sidebar ul li a {
+  color: #fff;
+}
+.sidebar ul li a:hover {
+  color: #12171e;
+  background-color: #000;
+}
+.sidebar ul li .tooltip {
+  box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.2);
+  background-color: #12171e;
+}
+
+
+
+
+
+
+.main-content {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  transition: all 0.5 ease;
+  
+  background-image: url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZSUyMGdhbGF4eXxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+
+.main-content a:link {
+  color: #fff;
+  background-color: rgba(100,100,120,0.7);
+}
+.main-content a:visited {
+  color: #fff;
+  background-color: rgba(100,100,120,0.7);
+}
+.main-content a:hover {
+  color: #fff;
+  background-color: rgba(90,90,110,0.9);
+}
+.main-content a:active {
+  color: #fff;
+  background-color: rgba(100,100,120,1);
+}
+
+.main-content h1 {
+  color: #fff;
+}
+.main-content h2 {
+  color: #fff;
+}
+.main-content p {
+  text-align: center;
+}
+
+
+.main-content input[type="checkbox"]:checked::before {
+  transform: scale(2);
+}
+.main-content input[type="checkbox"]:hover {
+  color: black;
+}
+
+.main-content input[type="checkbox"]::before {
+  content: "";
+  width: 1.4rem;
+  height: 1.4rem;
+  clip-path: polygon(21% 40%, 21% 40%, 8% 54%, 25% 68%, 36% 77%, 47% 65%, 48% 64%, 64% 47%, 75% 35%, 93% 13%, 81% 4%, 36% 54%);
+  transform: scale(0);
+  background-color: rgba(100,100,120,0.7);
+}
+.main-content input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 0.1rem;
+  border: 0.25rem solid rgba(100,100,120,0.7);
+  border-radius: 0.5rem;
+}
+
+
+
+
+.frame {
+  background-color: rgba(100,100,120,0.5);
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
